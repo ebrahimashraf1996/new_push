@@ -14,11 +14,11 @@
         </li>
         <li class="{{ Request::is('admin/business-settings/language') ?'active':'' }}"><a
                 href="{{route('admin.business-settings.language.index')}}">{{\App\CPU\translate('Languages')}}</a></li>
-        <li class="{{ Request::is('admin/business-settings/web-config/db-index') ?'active':'' }}"><a
-                href="{{route('admin.business-settings.web-config.db-index')}}">{{\App\CPU\translate('Clean_Database')}}</a>
-        </li>
-        <li class="{{ Request::is('admin/system-settings/software-update') ?'active':'' }}"><a
-                href="{{route('admin.system-settings.software-update')}}">{{\App\CPU\translate('software_update')}}</a>
-        </li>
+{{--        <li class="{{ Request::is('admin/business-settings/web-config/db-index') ?'active':'' }}"><a--}}
+{{--                href="{{route('admin.business-settings.web-config.db-index')}}">{{\App\CPU\translate('Clean_Database')}}</a>--}}
+{{--        </li>--}}
+{{--        <li class="{{ Request::is('admin/system-settings/software-update') ?'active':'' }}"><a--}}
+{{--                href="{{route('admin.system-settings.software-update')}}">{{\App\CPU\translate('software_update')}}</a>--}}
+{{--        </li>--}}
     </ul>
 </div>
