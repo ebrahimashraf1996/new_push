@@ -899,7 +899,7 @@
                         <li class="navbar-vertical-aside-has-menu {{(Request::is('admin/business-settings/web-config/environment-setup') || Request::is('admin/business-settings/web-config/mysitemap') || Request::is('admin/business-settings/analytics-index') || Request::is('admin/currency/view') || Request::is('admin/business-settings/web-config/db-index') || Request::is('admin/business-settings/language*'))?'active':''}}">
                             <a class="js-navbar-vertical-aside-menu-link nav-link"
                                title="{{\App\CPU\translate('System_Setup')}}"
-                               href="{{route('admin.business-settings.web-config.environment-setup')}}">
+                               href="{{route('admin.currency.view')}}">
                                 <i class="tio-labels nav-icon"></i>
                                 <span class="navbar-vertical-aside-mini-mode-hidden-elements text-truncate">
                                 {{\App\CPU\translate('System_Setup')}}

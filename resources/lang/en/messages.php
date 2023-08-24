@@ -2916,4 +2916,11 @@
   'expense_transaction' => 'Expense transaction',
   'closed_now' => 'Closed now',
   'We are sorry  server is not responding' => 'We are sorry  server is not responding',
+  'Generate Sitemap' => 'Generate Sitemap',
+  'Generate_Sitemap' => 'Generate Sitemap',
+  'Download Generate Sitemap' => 'Download Generate Sitemap',
+  'pixel_analytics_your_pixel_id' => 'Pixel analytics your pixel id',
+  'pixel_analytics_your_pixel_id_from_facebook' => 'Pixel analytics your pixel id from facebook',
+  'google_tag_manager_id' => 'Google tag manager id',
+  'google_tag_manager_script_id_from_google' => 'Google tag manager script id from google',
 );
